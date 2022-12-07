@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Titillium+Web:wght@300&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: pink;
+font-family: 'Poppins', sans-serif;
+padding: 4px 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hero{
+    background: transparent;
+}
+.hero .home h1{
+    color:rgb(237, 23, 23);
+    line-height: 25px;
+}
+span{
+    color: rgb(71, 97, 89);
+}
+.about .bt{
+    background:transparent;
+    border: 2px solid rgb(237, 23, 23);
+    border-radius: 5px;
+
+}
+.about .bt a{
+color: black;
+text-decoration: none;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pro .project{
+    background: rgb(208, 135, 135);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pro .project p{
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.pro .project .c{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  gap: 20px;
+
+}
+.pro .project .c button{
+    background:transparent;
+    border: 2px solid rgb(237, 23, 23);
+    border-radius: 5px;
+
+}
+.pro .project .c button a{
+    color: black;
+    text-decoration: none;
+    }
+.tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tools p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.noway{
+    font-weight: 50px;
+}
+.abt h1{
+    color:rgb(237, 23, 23);
+    line-height: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form .field{
+    background: white;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    cursor: grab;
+}
+label{
+    font-weight: bold;
+}
+.textip{
+    height: 60px;
+    width: 100%;
+    cursor: grab;
+ 
+}
+footer{
+    background: rgba(217, 179, 217, 0.8);
+}
